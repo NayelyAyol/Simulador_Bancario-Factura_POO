@@ -2,26 +2,21 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Factura.Factura">
   <grid id="27dc6" binding="Principal" layout-manager="GridBagLayout">
     <constraints>
-      <xy x="3" y="27" width="545" height="350"/>
+      <xy x="3" y="27" width="515" height="367"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-525057"/>
+      <foreground color="-16777216"/>
+    </properties>
     <border type="none"/>
     <children>
-      <component id="51197" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="1" column="1" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="1.0" weighty="0.0"/>
-        </constraints>
-        <properties>
-          <text value="FACTURA"/>
-        </properties>
-      </component>
       <component id="917ec" class="javax.swing.JLabel">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
+          <foreground color="-16777216"/>
           <text value="Código "/>
         </properties>
       </component>
@@ -31,6 +26,7 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
+          <foreground color="-16777216"/>
           <text value="Producto"/>
         </properties>
       </component>
@@ -40,6 +36,7 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
+          <foreground color="-16777216"/>
           <text value="Precio"/>
         </properties>
       </component>
@@ -49,6 +46,7 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
+          <foreground color="-16777216"/>
           <text value="Cantidad"/>
         </properties>
       </component>
@@ -58,6 +56,7 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
+          <foreground color="-16777216"/>
           <text value="Subtotal"/>
         </properties>
       </component>
@@ -67,6 +66,7 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
+          <foreground color="-16777216"/>
           <text value="IVA"/>
         </properties>
       </component>
@@ -76,6 +76,7 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
+          <foreground color="-16777216"/>
           <text value="TOTAL A PAGAR"/>
         </properties>
       </component>
@@ -129,15 +130,6 @@
       <component id="34e97" class="javax.swing.JLabel" binding="lbliva">
         <constraints>
           <grid row="13" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="0.0" weighty="0.0"/>
-        </constraints>
-        <properties>
-          <text value="Label"/>
-        </properties>
-      </component>
-      <component id="fb786" class="javax.swing.JLabel" binding="lbltotal">
-        <constraints>
-          <grid row="15" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
@@ -204,15 +196,6 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
       </vspacer>
-      <component id="a8a97" class="javax.swing.JButton" binding="calcularButton" default-binding="true">
-        <constraints>
-          <grid row="17" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="0.0" weighty="0.0"/>
-        </constraints>
-        <properties>
-          <text value="Calcular"/>
-        </properties>
-      </component>
       <vspacer id="6abd3">
         <constraints>
           <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
@@ -225,21 +208,51 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
       </vspacer>
-      <component id="21370" class="javax.swing.JButton" binding="menuButton">
-        <constraints>
-          <grid row="17" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="0.0" weighty="0.0"/>
-        </constraints>
-        <properties>
-          <text value="Menú"/>
-        </properties>
-      </component>
       <hspacer id="9f3f8">
         <constraints>
           <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
       </hspacer>
+      <component id="a8a97" class="javax.swing.JButton" binding="calcularButton" default-binding="true">
+        <constraints>
+          <grid row="17" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-3085079"/>
+          <text value="Calcular"/>
+        </properties>
+      </component>
+      <component id="fb786" class="javax.swing.JLabel" binding="lbltotal">
+        <constraints>
+          <grid row="15" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="51197" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="FACTURA"/>
+        </properties>
+      </component>
+      <component id="21370" class="javax.swing.JButton" binding="menuButton">
+        <constraints>
+          <grid row="17" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-3085079"/>
+          <text value="Menú"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

@@ -19,11 +19,14 @@ public class VerProductos extends JFrame{
         setDefaultCloseOperation(EXIT_ON_CLOSE); //sirve para que se cierra la aplicacion al salir
         setTitle("Ventas (Factura)"); //titulo para la ventana
 
-
+        //Se agrega al area de texto los productos
         mostrartextArea1.append("Código: "+ Factura.codigoR + "\nNombre: "+ Factura.nombreR + "\nDetalle: "+ detalleR + "\nStock Actuario: "+Factura.stock);
+
+        //Accion para el boton menu
         menuButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                //Se muestra la ventana del menu y se cierra la actual
                 new Menu();
                 dispose();
             }

@@ -22,6 +22,7 @@ public class Menu extends JFrame{
         registroButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                //Se muestra la ventana del Registro y se cierra la actual
                 new Registro();
                 dispose();
             }
@@ -29,6 +30,7 @@ public class Menu extends JFrame{
         ventasButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                //Se muestra la ventana de la Factura y se cierra la actual
                 new Factura();
                 dispose();
             }
@@ -36,6 +38,7 @@ public class Menu extends JFrame{
         verProductosButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                //Se muestra la ventana de VerProductos y se cierra la actual
                 new VerProductos();
                 dispose();
             }
