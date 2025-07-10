@@ -60,6 +60,7 @@ public class Registro extends JFrame{
                     Factura.nombreR = nombre;
                     Factura.precioR = precioU;
                     Factura.stock = stockC;
+                    VerProductos.detalleR = detalle;
 
                     codigotextField1.setText("");
                     nombretextField2.setText("");
